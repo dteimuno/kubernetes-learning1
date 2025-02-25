@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       env: production
-  replicas: 3 
+  replicas: 6
   template:
     metadata:
       labels:
