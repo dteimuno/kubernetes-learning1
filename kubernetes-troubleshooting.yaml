@@ -1,0 +1,3 @@
+cat /var/log/syslog | grep kubelet
+cat /var/log/syslog | grep kube-apiserver
+find / | grep kubeadm
