@@ -1,0 +1,14 @@
+#add a repository
+helm repo add <repo-name-you-want> <repo-url>
+#customize helm before installing chart
+helm install <release-name> <org/repo-name> --set <value-name-from-values.yaml-file>=<value>
+#pull image and unzip it
+helm pull <org-name/repository-name> --untar
+#install  chart at a particular version
+helm install <release-name> <org/repo-name> --version=<value>
+#upgrade chart
+helm upgrade <release-name> <org/repo-name> 
+#see history of releases as well as revision number
+helm history <release-name>
+#rollback release to particular revision number
+helm rollback <release-name> <revision-number>
