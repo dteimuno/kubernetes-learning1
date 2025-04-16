@@ -1,1 +1,1 @@
-# kubernernets-learning1
+# kubernetes-learning1
